@@ -13,7 +13,7 @@ void displayPrint(int elapsed){
 //  }
 //  displaySerial.print(sCount);
 char tempString[10];
-sprintf(tempString,"%4d",log_count);
+sprintf(tempString,"%04d",log_count);
 displaySerial.print(tempString);
 }
 

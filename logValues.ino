@@ -18,9 +18,8 @@ void logValues(){
   logSerial.print(photocell);
   logSerial.print(",");
   logSerial.print(isPumping);
-  logSerial.println(",");
-  logSerial.print(gals_added);
-  logSerial.println("");
+  logSerial.print(",");
+  logSerial.println(gals_added);
 
   gals_added = 0; // reset this value so we don't overcount added gallons
 }
